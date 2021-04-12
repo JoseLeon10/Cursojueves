@@ -5,3 +5,5 @@ torta
 arroz
 pasta
 carne
+pollo
+harina
