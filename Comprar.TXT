@@ -2,3 +2,6 @@ Azucar
 cafe
 leche
 torta
+arroz
+pasta
+carne
