@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TareaJS</title>
+  <script
+    type="text/javascript">
+  alert ("¿Qué medio de transporte necesitas?")
+  </script>
+</head>
+<body>
+
+  <script>
+    var pregunta;
+
+    pregunta=prompt('¿Cuanto km quieres viajar?' , '');
+    
+    if (pregunta <= 1000)
+      {document.write('puedes ir a pie');}
+    else if (pregunta >= 1000 && pregunta <=10000)
+      {document.write('puedes ir en bici');}
+    else if (pregunta >= 10000 && pregunta <= 100000)
+      {document.write('puedes ir en colectivo');}
+      else if (pregunta >= 100000 && pregunta <= 1000000)
+      {document.write('puedes ir en auto')}
+      else { (pregunta >= 1000000)
+        document.write('puedes ir en avion')
+      };
+
+    
+
+    
+    
+  </script>
+  
+</body>
+</html>
