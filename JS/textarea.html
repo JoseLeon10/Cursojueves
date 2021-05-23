@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>textarea</title>
+</head>
+<body>
+    <div id="juntada" style="border: solid blue 10px">
+
+    <div id="comida" style="border: solid green 5px">
+        <p>cebolla</p>
+        <p>tomate</p>
+        <p>papas</p>
+        <p>pan</p>
+        <p>carne</p>
+        <p>queso</p>
+        <p>bebida</p>
+    </div>
+
+    <div id="invitados" style="border: solid red 5px">
+        <p>niños</p>
+        <p>niñas</p>
+        <p>padres</p>
+        <p>abuelos</p>
+        <p>tios</p>
+    </div>
+    </div>
+
+
+    <button onclick="todosLosParrafos();">
+    muestra todos los P en el documento</button>
+
+    <button onclick="comidaparaelems();">
+    muestrame todos los elementos p en comida</button>
+
+    <button onclick="invitadosparaelems();">
+    muestrame todos los elementos p en invitados</button>
+
+    <script>
+        function todosLosParrafos() {
+            var allParafos = document.getElementsByTagName("p");
+            var num = allParafos.length;
+            alert("tenemos " + num + " <p> elementos en este documento");
+        }
+
+        function comidaparaelems(){
+            var comida = document.getElementById("comida")
+            var comidaparraf = comida.getElementsByTagName("p")
+            var num = comidaparraf.length;
+            alert("tenemos " + num + " <p> elementos en comida")
+        }
+
+        function invitadosparaelems(){
+            var invitados = document.getElementById("invitados")
+            var invitadosparraf = invitados.getElementsByTagName("p")
+            var num = invitadosparraf.length;
+            alert("tenemos " + num + " <p> elementos en invitados")
+        };
+
+    </script>
+
+    
+</body>
+</html>

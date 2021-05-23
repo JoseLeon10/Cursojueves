@@ -1,0 +1,41 @@
+
+
+.boton {
+    padding: 30px 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight:bold;
+    border-left: sandybrown;
+    outline: none;
+    cursor: pointer;
+}
+
+.uno {
+    background: blue;
+}
+
+.uno.activo {
+    background: red;
+    color: black;
+}
+
+.boton.dos {
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight:bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.dos {
+    background: bisque;
+}
+
+.dos.activo {
+    background: fuchsia;
+    color: pink;
+}
